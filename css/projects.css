@@ -36,7 +36,7 @@ ul{
     margin: 0 auto;
 }
 .bg-img{
-    background-image: url(/images/header-1-1600x400.jpg);
+    background-image: url(../images/header-1-1600x400.jpg);
     background-size: cover;
     background-position: center;
     min-height: 400px;   
