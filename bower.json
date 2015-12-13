@@ -1,0 +1,22 @@
+{
+  "name": "alex",
+  "authors": [
+    "ding0055 <ding0055@algonquinlive.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "4.0.0-alpha",
+    "jquery": "~2.1.4"
+  }
+}
