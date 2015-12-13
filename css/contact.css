@@ -41,71 +41,58 @@ ul{
     background-position: center;
     min-height: 400px;   
 }
-.main1{
-    max-width: 1400px;
-    margin: 0 auto;
-    
-}
-.bg-bio{
-    width: 80%;
-    margin: 0 auto;
 
-}
-
-.bg-skill{
-    background-color: #373737;
-    color:white;
-
-}
-.box1{
-    max-width: 1400px;
-    margin: 0 auto;
-}
-.skill{
-    width: 80%;
-    margin: 0 auto;
-    padding: 3rem 0 2rem 0;
-}
-.star-yellow{
-    color:gold;
-}
-.star-white{
-    color:white;
-}
 
 .bg-foot{
     background-color: white;
 }
-.box2{
-    margin: 0 auto;
-}
-.box2 p{
-    text-align: center;
-    padding: 0.5rem 0 0 0;
-}
+
 .box h1{
     font-family: 'Bree Serif', serif;
 }
 .box-min h1{
     font-family: 'Bree Serif', serif;
 }
-.bio-text p{
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2rem;
+.card{
+    padding: 0.3rem;
 }
-.bio-img h2{
+.box2 p{
+    text-align: center;
+    padding: 0.5rem 0 0 0;
+}
+.mainhead{
+    margin: 2rem;
+}
+.mainhead h2{
+    text-align: center;
     font-family: 'Orbitron', sans-serif;
-}
-.skill h2{
-    font-family: 'Orbitron', sans-serif;
-}
-li {
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1.2rem;
-}
 
-td{
-    padding: 0.2rem;
+}
+.bg-main{
+    background-color: #373737;
+}
+.mainheader{
+    text-align: center;
+    padding: 1.5rem;
+}
+.mainheader h2{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.mainbox{
+    width: 80%;
+    margin: 0 auto;
+}
+.lab{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.lab1{
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+}
+.bt{
+    padding: 1.5rem 0;
 }
 @media all and (max-width:700px){
     .box{
@@ -115,10 +102,13 @@ td{
          padding: 2rem;
     }
     .navbar-toggler{
-        margin: 0 0 0 2rem;
+        margin: 0 0 0 2rem;  
+    }
+    .md1{
+        min-height: 100px;
     }
 }
-@media all and (min-width:701px) and (max-width:900px){
+@media all and (min-width:701px) and (max-width:1200px){
     .box-min{
         display: none;
     }
@@ -137,27 +127,24 @@ td{
     float: left;
     padding: 2rem;
     }
-  .table1{
-    font-size: 1.2rem;
-    padding: 1.5rem 0;
+ .mainbox{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+ .formbox {
+    float: left;
+    width:50%;
 }
-   .table2{
-    font-size: 1.2rem;
-    padding: 1.5rem 0;
+.md {
+    width:80%;
+} 
+.md1{
+        width:90%;
+    }
 }
-    .bio-img{
-  float: left;
-  width: 40%;
-  padding: 5rem 1rem 1.5rem 0rem;
-}
-.bio-text{
-  float: right;
-  width: 60%;
-  padding: 7rem 0 1.5rem 2rem; 
-}
-}
-@media all and (min-width:901px){
-    .box-min{
+
+@media all and (min-width:1201px) {
+.box-min{
         display: none;
     }
     .box {
@@ -175,26 +162,25 @@ td{
     float: left;
     padding: 2rem;
     }
-    .bio-img{
-  float: left;
-  width: 40%;
-  padding: 5rem 1rem 1.5rem 0rem;
-}
-.bio-text{
-  float: right;
-  width: 60%;
-  padding: 7rem 0 1.5rem 2rem; 
-}
-    .table1{
-    font-size: 1rem;
+ .mainbox{
+        max-width: 1200px;
+        margin: 0 auto;
+    } 
+  .formbox {
     float: left;
     width:50%;
-    padding: 1.5rem 0;
+    margin: 1rem 0;
 }
-   .table2{
-    font-size: 1rem;
-    float: right;
-    width:50%;
-    padding: 1.5rem 0 0 1.5rem;  
-}
+  .lab {
+    float:left;
+    width:30%
+  }
+    .lab1 {
+    float:left;
+    width:15%
+  }
+    .md1{
+       width:70%;
+    }
+    
 }

@@ -104,9 +104,16 @@ ul{
         width: 700px;
         margin: 1.5rem auto;
     }
+    .layout1 {
+        display: none;
+    }
+    .layout2 {
+        display: none;
+    }
 }
+
 @media all and (min-width:1001px) and (max-width:1400px){
-    .box-min{
+.box-min{
         display: none;
     }
     .box {
@@ -114,21 +121,24 @@ ul{
     margin: 0 auto;
     min-height: 5rem;
     }
-  .navbar{
+.navbar{
     float: right;
-    margin: 2rem 0;
+    margin: 2rem;
     background-color: none;
     font-weight: bold;
 }
-  .box h1{
+.box h1{
     float: left;
     padding: 2rem;
     }
-    .mainbox{
-        width: 1000px;
+ .mainbox{
+        max-width: 1400px;
         margin: 1.5rem auto;
-    }
+    } 
  .layout1{
+        display: none;
+    }
+ .layout3{
         display: none;
     }
 }
@@ -155,7 +165,10 @@ ul{
         max-width: 1400px;
         margin: 1.5rem auto;
     }
-    .layout2{
+    .layout2 {
+        display: none;
+    }
+    .layout3 {
         display: none;
     }
 }
